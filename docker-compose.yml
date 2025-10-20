@@ -1,8 +1,8 @@
 version: "2.1"
 services:
   mikhmon:
-    image: animegasan/mikhmon:latest
+    image: animegasan/mikhmon:v3-latest
     container_name: mikhmon
     ports:
-      - 8080:80
+      - 8050:80
     restart: unless-stopped
